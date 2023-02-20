@@ -1,5 +1,5 @@
 ==================================
-Wapiti - Web Vulnerability Scanner
+Web Vulnerability Scanner
 ==================================
 
 .. image:: https://img.shields.io/pypi/v/wapiti3?label=PyPI&logo=PyPI&logoColor=white&color=blue
@@ -19,22 +19,20 @@ Wapiti - Web Vulnerability Scanner
 
 Wapiti is a web vulnerability scanner written in Python.
 
-http://wapiti-scanner.github.io/
+http://bosch.com/
 
 Requirements
 ============
-In order to work correctly, Wapiti needs Python 3.x where x is >= 9 (3.9, 3.10)
+In order to work correctly, this tool needs Python 3.x where x is >= 9 (3.9, 3.10)
 
-All Python module dependencies will be installed automatically if you use the setup.py script or `pip install wapiti3`
+All Python module dependencies will be installed automatically if you use the setup.py script
 
-See `INSTALL.md <https://github.com/wapiti-scanner/wapiti/blob/master/INSTALL.md>`__ for more details on installation.
-
-Running Wapiti on Windows can be accomplished through the use of `WSL <https://learn.microsoft.com/en-us/training/modules/get-started-with-windows-subsystem-for-linux/>`__.
+See `INSTALL.md'
 
 How it works
 ============
 
-Wapiti works as a "black-box" vulnerability scanner,  that means it won't
+This tool works as a "black-box" vulnerability scanner,  that means it won't
 study the source code of web applications but will work like a  fuzzer,
 scanning the pages of the deployed web application, extracting links and
 forms  and attacking  the scripts, sending payloads and looking for error
@@ -105,7 +103,7 @@ Supported attacks
 + Subdomain takeovers detection
 + Log4Shell (CVE-2021-44228) detection
 
-Wapiti supports both GET and POST HTTP methods for attacks.  
+Tool supports both GET and POST HTTP methods for attacks.  
 It also supports multipart and can inject payloads in filenames (upload).  
 Display a warning when an anomaly is found (for example 500 errors and timeouts)  
 Makes the difference between permanent and reflected  XSS vulnerabilities.
@@ -188,12 +186,11 @@ You can :
 + Send bugfixes, patches...
 + Write some GUIs
 + Create a tool to convert PCAP files to Wapiti sqlite3 session files
-+ Talk about Wapiti around you
 
 Licensing
 =========
 
-Wapiti is released under the GNU General Public License version 2 (the GPL).
+Tool is released under the GNU General Public License version 2 (the GPL).
 Source code is available on `Github <https://github.com/wapiti-scanner/wapiti>`__.
 
 Created by Nicolas SURRIBAS.
@@ -208,8 +205,8 @@ Security For Everyone https://securityforeveryone.com/
 Disclaimer
 ==========
 
-Wapiti is a cybersecurity software. It performs security assessments on a provided target, which can lead to malfunctions and crashes on the target, as well as potential data loss.
+Tool is a cybersecurity software. It performs security assessments on a provided target, which can lead to malfunctions and crashes on the target, as well as potential data loss.
 
-Usage of Wapiti for attacking a target without prior consent of its owner is illegal. It is the end user's responsibility to obey all applicable local laws.
+Usage of this tool for attacking a target without prior consent of its owner is illegal. It is the end user's responsibility to obey all applicable local laws.
 
-Developers and people involved in the Wapiti project assume no liability and are not responsible for any misuse or damage caused by this program.
+Developers and people involved in the project assume no liability and are not responsible for any misuse or damage caused by this program.
