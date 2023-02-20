@@ -17,7 +17,7 @@ Web Vulnerability Scanner
 .. image:: https://codecov.io/gh/wapiti-scanner/wapiti/branch/master/graph/badge.svg?token=GFEIORAFB8
     :target: https://codecov.io/gh/wapiti-scanner/wapiti
 
-Wapiti is a web vulnerability scanner written in Python.
+This tool is a web vulnerability scanner written in Python.
 
 http://bosch.com/
 
